@@ -2,16 +2,16 @@
   "name": "03",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "dependencies": {
+    "polka": "^0.5.2",
+    "sirv": "^1.0.19"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "polka": "^0.5.2",
-    "sirv": "^1.0.18"
-  }
+  "license": "ISC"
 }
